@@ -2,18 +2,18 @@
 
     .body-index{ 
         background-color: black;
+        
      } 
      
      .presentacion-nueva{
          display:grid;
-         grid-template-columns: 1fr 1fr;
-         grid-template-rows: 1fr;
-     
+         grid-template-columns: 0.5fr 0.5fr;
+         
         
      
          .logo{
              margin-top: 80px;
-             width: 250px;
+             width: 200px;
              height: auto;
          }
 
@@ -23,20 +23,24 @@
          }
 
         }
+
+        
         ul  {
             display: flex;
-            padding: 10px;
+            padding: 10px; 
             background-color: black;
-            gap: 5px;
-            margin-top: 20px;
+             gap: 3px; 
+            margin-top: 70px;
+            
            
         
             li a{
                 color: white;
-                font-size: 20px;
+                font-size: 18px;
                 text-decoration: none;
-                padding: 10px;
+                padding: 5px;
                 margin-left: 20px;
+                
                 
         
                 &:hover{
@@ -66,9 +70,9 @@
 .historia{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 15px;
+    padding: 10px;
     background-color:darksalmon;
-    width: 400px;
+    width: 380px;
     height: auto;
     margin: auto;
     margin-bottom: 30px;
@@ -179,7 +183,7 @@
     width: 100%;
     height: auto;
     max-width: 400px;
-    margin-left: 50px;
+    margin-left: 30px;
     
 }
 }
