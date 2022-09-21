@@ -21,14 +21,15 @@
   }
   .presentacion-nueva .fondo {
     width: 200px;
-    height: 500px;
+    height: auto;
+    margin-top: 150px;
   }
   ul {
     display: flex;
     padding: 10px;
     background-color: black;
     gap: 3px;
-    margin-top: 130px;
+    margin-top: 150px;
   }
   ul li a {
     color: white;
@@ -128,13 +129,16 @@
     display: none;
   }
   /* CV */
+  .body-cv {
+    background-color: black;
+  }
   .img-cv {
     background-color: black;
   }
   .img-cv img {
     width: 100%;
     height: auto;
-    max-width: 400px;
+    max-width: 350px;
     margin-left: 10px;
   }
 }
