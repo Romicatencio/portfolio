@@ -6,20 +6,21 @@
      } 
      
      .presentacion-nueva{
-         display:grid;
-         grid-template-columns: 0.5fr 0.5fr;
+         display:flex;
+         
          
         
      
          .logo{
-             margin-top: 80px;
+             margin-top: 180px;
              width: 200px;
-             height: auto;
+             height:200px;
+             
          }
 
          .fondo{
-            width: 250px;
-            height: auto;
+            width: 200px;
+            height: 500px;
          }
 
         }
@@ -32,14 +33,16 @@
              gap: 3px; 
             margin-top: 70px;
             
+            
            
         
             li a{
                 color: white;
-                font-size: 18px;
+                font-size: 14px;
                 text-decoration: none;
                 padding: 5px;
                 margin-left: 20px;
+               
                 
                 
         
@@ -64,7 +67,7 @@
     color:white;
     text-align: center;
     animation-duration: 3s;
-    margin: 10px;
+    margin: 20px;
 }
 
 .historia{
@@ -77,6 +80,7 @@
     margin: auto;
     margin-bottom: 30px;
     border: solid 3px white;
+    margin-top: 100px;
 
 
 
@@ -110,6 +114,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
+    margin-top: 60px;
     
 
     .proy-2{
@@ -183,7 +188,7 @@
     width: 100%;
     height: auto;
     max-width: 400px;
-    margin-left: 30px;
+    margin-left: 10px;
     
 }
 }
